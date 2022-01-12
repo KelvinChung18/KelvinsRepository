@@ -1,7 +1,5 @@
 package leetCode;
 
-import org.junit.Test;
-
 /**
  * @author kelvinchung
  *
@@ -10,7 +8,7 @@ import org.junit.Test;
  * 并且知道字符串的“真实”长度。（注：用Java实现的话，请使用字符数组实现，以便直接在数组上操作。）
  *
  */
-public class Solution2 {
+public class StrToURL {
 
     public String replaceSpaces(String S, int length) {
 

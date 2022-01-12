@@ -28,7 +28,7 @@ package leetCode;
  *  j排 倒数第i列
  *
  */
-public class Solution6 {
+public class RotateMatrix {
     public static void rotate(int[][] matrix) {
         // 规定好了是 N*N
         int N = matrix.length;

@@ -13,7 +13,7 @@ package leetCode;
  * second = "ple"
  * 输出: True
  */
-public class Solution5 {
+public class OneAway {
 
     public static boolean oneEditAway(String first, String second) {
         int num = 0;

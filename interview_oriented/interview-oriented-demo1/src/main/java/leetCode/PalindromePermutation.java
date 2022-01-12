@@ -12,7 +12,7 @@ package leetCode;
  * 输出：true（排列有"tacocat"、"atcocta"，等等）
  *
  */
-public class Solution3 {
+public class PalindromePermutation {
     /**
      * 理解：要看每个字母出现的次数，是否都为偶数；奇数只能为一个
      *

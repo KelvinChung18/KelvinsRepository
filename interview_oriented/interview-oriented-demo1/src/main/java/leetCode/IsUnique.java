@@ -7,7 +7,7 @@ package leetCode;
  * 实现一个算法，确定一个字符串 s 的所有字符是否全都不同。
  *
  */
-public class Solution {
+public class IsUnique {
     public static boolean isUnique(String astr) {
         for (int i = 0; i < astr.length() - 1; i++) {
             for (int j = i; j < astr.length() - 1; j++) {
