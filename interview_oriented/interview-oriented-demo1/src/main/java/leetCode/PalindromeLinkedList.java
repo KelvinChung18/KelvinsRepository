@@ -35,15 +35,20 @@ public class PalindromeLinkedList {
             }
         }
         return true;
+
     }
 
     public static void main(String[] args) {
-        ListNode t1 = new ListNode(1);
-        ListNode t2 = new ListNode(0);
-        ListNode t3 = new ListNode(0);
-        t1.next = t2;
-        t2.next = t3;
-        System.out.println(isPalindrome(new ListNode(1)));
+//        ListNode t1 = new ListNode(1);
+//        ListNode t2 = new ListNode(0);
+//        ListNode t3 = new ListNode(0);
+//        t1.next = t2;
+//        t2.next = t3;
+//        System.out.println(isPalindrome(new ListNode(1)));
+        HashSet<String> set = new HashSet<>();
+        set.add("kelvin");
+
     }
+
 
 }
